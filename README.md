@@ -1,14 +1,21 @@
 # lambda-demo
+
 ## version
 
 ## how to develop
+
 ### create enviroment
+
 $ brew install docker
+
 $ brew tap aws/tap
+
 $ brew install aws-sam-cli
+
 $ sam init
 
-logs
+###  logs
+
 hoge create-lambdademo % brew install docker
 Running `brew update --preinstall`...
 ==> Auto-updated Homebrew!
@@ -82,9 +89,7 @@ Package type: 1
 
 Based on your selections, the only dependency manager available is pip.
 We will proceed copying the template using pip.
-
 Project name [sam-app]: hanson-lambda
-
     -----------------------
     Generating application:
     -----------------------
@@ -105,8 +110,8 @@ Project name [sam-app]: hanson-lambda
 
 $ sam build
 
-logs
-sam build
+### sam build logs
+
 Building codeuri: /Users/aokiyusuke/Downloads/inDire/samurai-task/create-lambdademo/hanson-lambda/hello_world runtime: python3.8 metadata: {} architecture: x86_64 functions: ['HelloWorldFunction']
 
 Build Failed
